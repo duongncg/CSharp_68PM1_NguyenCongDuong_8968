@@ -16,5 +16,19 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            String userName = txtUserName.Text;
+            String password = txtPassword.Text;
+            if(userName == "0008968@st.huce.edu.vn" && password == "0008968" )
+            {
+                MessageBox.Show("Đăng nhập thành công!");
+            }
+            else
+            {
+                MessageBox.Show("Đăng nhập thất bại!");
+            }
+        }
     }
 }
