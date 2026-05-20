@@ -16,5 +16,27 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void main_Load(object sender, EventArgs e)
+        {
+            UCQLSinhVien uCQLSinhVien = new UCQLSinhVien();
+            pnlMain.Controls.Clear();
+            pnlMain.Controls.Add(uCQLSinhVien);
+        }
+
+        private void quảnLýSinhViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCQLSinhVien uCQLSinhVien = new UCQLSinhVien();
+            pnlMain.Controls.Clear();
+            pnlMain.Controls.Add(uCQLSinhVien);
+        }
+
+        private void quảnLýLớpHọcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCQLLopHoc uCQLLopHoc = new UCQLLopHoc();
+            pnlMain.Controls.Clear();
+            pnlMain.Controls.Add(uCQLLopHoc);
+            
+        }
     }
 }
