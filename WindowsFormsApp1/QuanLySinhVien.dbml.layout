@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QuanLySinhVien">
+  <DataContextMoniker Name="/QuanLySinhVienDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c22ef73e-442c-445e-8686-ff7332f78f08" absoluteBounds="4.375, 1.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/QuanLySinhVienDataContext/SinhVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4c3f6641-0aa0-4edb-9291-47d256afc041" absoluteBounds="4.39, 1.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="50b189d2-2f54-452a-8755-1a3153961fc6" absoluteBounds="1.875, 1.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QuanLySinhVienDataContext/LopHoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac5515b3-79a3-4e92-9329-8f2ebaaa3ada" absoluteBounds="1.8899999999999997, 1.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.875 : 2.28929768880208); (4.375 : 2.28929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLySinhVienDataContext/LopHoc/LopHoc_SinhVien" />
+      <nodes>
+        <classShapeMoniker Id="50b189d2-2f54-452a-8755-1a3153961fc6" />
+        <classShapeMoniker Id="c22ef73e-442c-445e-8686-ff7332f78f08" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
